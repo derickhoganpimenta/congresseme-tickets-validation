@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnScanBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/sunglow"
+        android:text="@string/btn_read_qr_code"
+        android:textColor="@color/arapawa" />
+
+    <TextView
+        android:id="@+id/startTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_text_view"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/eventNameKeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Evento" />
+
+    <TextView
+        android:id="@+id/eventNameValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:text="@string/nothing_to_show"/>
+
+    <TextView
+        android:id="@+id/eventEditionNameKeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Edição" />
+
+    <TextView
+        android:id="@+id/eventEditionNameValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:text="@string/nothing_to_show"/>
+
+    <TextView
+        android:id="@+id/userNameKeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Congressista" />
+
+    <TextView
+        android:id="@+id/userNameValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:text="@string/nothing_to_show"/>
+
+    <TextView
+        android:id="@+id/productNameKeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Ticket" />
+
+    <TextView
+        android:id="@+id/productNameValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:textStyle="bold"
+        android:text="@string/nothing_to_show"/>
+
+    <TextView
+        android:id="@+id/productDescriptionKeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Detalhes" />
+
+    <TextView
+        android:id="@+id/productDescriptionValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:textStyle="bold"
+        android:text="@string/nothing_to_show"/>
+
+    <ImageView
+        android:id="@+id/statusImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_aproved"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:visibility="invisible"/>
+</RelativeLayout>
