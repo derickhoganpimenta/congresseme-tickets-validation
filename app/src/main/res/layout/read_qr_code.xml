@@ -20,7 +20,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:text="No Barcode Detected"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 </RelativeLayout>

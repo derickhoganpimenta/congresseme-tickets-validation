@@ -17,20 +17,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TicketsValidation"
-        tools:targetApi="31" >
+        tools:targetApi="31"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:screenOrientation="nosensor">
         <activity
-            android:name=".ReadQRCode"
+            android:name=".ReadQRCodeActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.TicketsValidation.NoActionBar" />
+            android:theme="@style/Theme.TicketsValidation.NoActionBar"
+            android:screenOrientation="nosensor"/>
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.TicketsValidation.NoActionBar" />
+            android:theme="@style/Theme.TicketsValidation.NoActionBar"
+            android:screenOrientation="nosensor"/>
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="nosensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
