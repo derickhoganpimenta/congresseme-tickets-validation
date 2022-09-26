@@ -15,107 +15,30 @@
         android:text="@string/btn_read_qr_code"
         android:textColor="@color/arapawa" />
 
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_user" />
+
     <TextView
-        android:id="@+id/startTextView"
+        android:id="@+id/welcomeFirstTextTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start_text_view"
+        android:text="@string/welcome_first_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
         android:textSize="20dp"/>
 
     <TextView
-        android:id="@+id/eventNameKeyTextView"
+        android:id="@+id/welcomeSecondTextTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Evento" />
-
-    <TextView
-        android:id="@+id/eventNameValueTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:textStyle="bold"
-        android:text="@string/nothing_to_show"/>
-
-    <TextView
-        android:id="@+id/eventEditionNameKeyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
-        android:text="Edição" />
-
-    <TextView
-        android:id="@+id/eventEditionNameValueTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="190dp"
-        android:textStyle="bold"
-        android:text="@string/nothing_to_show"/>
-
-    <TextView
-        android:id="@+id/userNameKeyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="220dp"
-        android:text="Congressista" />
-
-    <TextView
-        android:id="@+id/userNameValueTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
-        android:textStyle="bold"
-        android:text="@string/nothing_to_show"/>
-
-    <TextView
-        android:id="@+id/productNameKeyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="270dp"
-        android:text="Ticket" />
-
-    <TextView
-        android:id="@+id/productNameValueTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="290dp"
-        android:textStyle="bold"
-        android:text="@string/nothing_to_show"/>
-
-    <TextView
-        android:id="@+id/productDescriptionKeyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="320dp"
-        android:text="Detalhes" />
-
-    <TextView
-        android:id="@+id/productDescriptionValueTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
-        android:textStyle="bold"
-        android:text="@string/nothing_to_show"/>
-
-    <ImageView
-        android:id="@+id/statusImageView"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        app:srcCompat="@drawable/ic_aproved"
+        android:text="@string/welcome_second_text"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="160dp"
-        android:visibility="invisible"/>
-
-    <Button
-        android:id="@+id/confirmAttendanceListButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:backgroundTint="@color/arapawa"
-        android:text="@string/btn_confirm_attendance_list"
-        android:layout_marginBottom="65dp"
-        android:textColor="@color/white"
-        android:visibility="invisible"/>
+        android:layout_marginTop="410dp"
+        android:textSize="20dp"/>
 
 </RelativeLayout>

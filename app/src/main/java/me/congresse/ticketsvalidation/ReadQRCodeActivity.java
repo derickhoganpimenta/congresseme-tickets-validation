@@ -92,7 +92,7 @@ public class ReadQRCodeActivity extends AppCompatActivity {
             public void receiveDetections(Detector.Detections<Barcode> detections) {
                 final SparseArray<Barcode> barcodes = detections.getDetectedItems();
                 if (barcodes.size() != 0) {
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), ConfirmationActivity.class);
                     intent.putExtra("data", barcodes.valueAt(0).displayValue);
                     startActivity(intent);
                 }

@@ -9,9 +9,20 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_main">QR Code</string>
-    <string name="btn_read_qr_code">Ler QR Code</string>
+    <string name="btn_read_qr_code">LER QR CODE</string>
+    <string name="btn_read_next_qr_code">Ler Próximo Ticket</string>
     <string name="start_text_view">Para começar, clique em "LER QR CODE"</string>
     <string name="nothing_to_show">Nada a ser exibido</string>
-    <string name="btn_confirm_attendance_list">Confirmar Presença</string>
+    <string name="btn_confirm_attendance_list">Concluir Verificação</string>
     <string name="confirmed_attendance_list">Presença confirmada com sucesso!</string>
+    <string name="invalid_ticket">Ticket inválido</string>
+    <string name="found_ticket">Ticket encontrado</string>
+    <string name="title_activity_confirmation">Confirmação</string>
+    <string name="welcome_first_text">Seja bem-vindo!</string>
+    <string name="welcome_second_text">Vamos começar?</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="action_bar_text">Congresse.me - Ticket Checker</string>
+    <string name="first_message_successful_user_verification">USUÁRIO VERIFICADO</string>
+    <string name="second_message_successful_user_verification">COM SUCESSO</string>
+    <string name="no_internet_connection">Nenhuma conexão com a internet. Por favor, providencie conexão para confirmar as presenças dos congressistas.</string>
 </resources>
